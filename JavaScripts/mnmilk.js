@@ -10,7 +10,7 @@ hostname = mp-isv.youzanyun.com
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj['data']['isExchange'] = 'True';
+obj['data']['isExchange'] = true;
 
 mn = JSON.stringify(obj);
 console.log(mn)
