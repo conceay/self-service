@@ -14,4 +14,4 @@ obj['data']['isExchange'] = true;
 
 body = JSON.stringify(obj);
 console.log(body)
-$done(mn);
+$done(body);
