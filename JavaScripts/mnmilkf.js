@@ -4,5 +4,5 @@ let obj = JSON.parse(body);
 obj['data']['isExchange'] = true;
 
 mn = JSON.stringify(obj);
-console.log(mm);
+console.log(mn);
 $done({body: mn});
