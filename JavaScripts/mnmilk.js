@@ -12,8 +12,6 @@ var obj = JSON.parse(body);
 
 obj['data']['isExchange'] = true;
 
-mn = JSON.stringify(obj);
-console.log(mn)
-$done({
-    mn
-});
+body = JSON.stringify(obj);
+console.log(body)
+$done(mn);
